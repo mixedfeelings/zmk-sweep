@@ -25,7 +25,7 @@
         };
         combo_tab {
             timeout-ms = <50>;
-            mkkey-positions = <10 11>;
+            key-positions = <10 11>;
             bindings = <&kp TAB>;
         };
         combo_bspc {
@@ -33,7 +33,7 @@
             key-positions = <8 9>;
             bindings = <&kp BSPC>;
         };
-        combo_SEMI {
+        combo_semi {
             timeout-ms = <50>;
             key-positions = <18 19>;
             bindings = <&kp SEMI>;
@@ -43,13 +43,11 @@
             key-positions = <17 16>;
             bindings = <&kp RALT>;
         };
-        
         combo_lalt {
             timeout-ms = <50>;
             key-positions = <11 12>;
             bindings = <&kp LALT>;
         };
-        
         combo_lgui {
             timeout-ms = <50>;
             key-positions = <12 13>;
