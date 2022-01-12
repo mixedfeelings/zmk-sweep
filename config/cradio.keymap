@@ -72,38 +72,37 @@
             
         default_layer {
             bindings = <
-                &kp Q      &kp W      &kp E      &kp R        &kp T 	      &kp Y       &kp U        &kp I      &kp O      &kp P 
-                &kp A      &hm LALT S &hm LGUI D &hm LSHIFT F &kp G 	      &kp H       &hm LSHIFT J &hm LGUI K &hm LALT L &kp QUOT
-                &mt LSFT Z &kp X      &kp C      &kp V        &kp B		      &kp N       &kp M        &kp CMMA   &kp DOT    &mt LSFT FSLH
-                                                 &kp LGUI     &lt 1 ENTER     &lt 2 SPACE &mo 3 
+                &kp Q      &kp W      &kp E      &kp R        &kp T 	          &kp Y       &kp U        &kp I      &kp O      &kp P 
+                &lt 3 A    &hm LALT S &hm LGUI D &hm LSHIFT F &kp G 	          &kp H       &hm LSHIFT J &hm LGUI K &hm LALT L &kp QUOT
+                &mt LSFT Z &kp X      &kp C      &kp V        &kp B		          &kp N       &kp M        &kp CMMA   &kp DOT    &mt LSFT FSLH
+                                                 &kp LGUI     &lt 1 ENTER         &lt 2 SPACE &mo 3 
             >;
         };
 
         left_layer {
             bindings = < 
-                &kp TAB  &trans        &trans       &trans            &trans 	   &trans    &kp KP_EQUAL &kp PLUS &kp BSLH &kp DEL
-                &kp BANG &kp ATSN      &kp HASH     &kp DLLR          &kp PRCT     &kp CRRT  &kp AMPS     &kp KMLT &kp LPRN &kp RPRN 
-                &kp LSFT &kp C_VOL_DN  &kp C_VOL_UP &kp C_PLAY_PAUSE  &trans       &trans    &trans       &kp LBKT &kp RBKT &kp RSFT
-
-                                                    &mo 3             &kp LCTL     &kp SPC  &mo 2 
+                &kp TAB  &trans        &trans       &trans           &trans 	  &trans    &kp UNDER &kp PLUS &kp PIPE &kp BSPC
+                &kp BANG &kp ATSN      &kp HASH     &kp DLLR         &kp PRCT     &kp CRRT  &kp AMPS  &kp KMLT &kp LPRN &kp RPRN 
+                &kp LSFT &kp C_VOL_DN  &kp C_VOL_UP &kp C_PLAY_PAUSE &trans       &trans    &trans    &kp LBKT &kp RBKT &kp RSFT
+                                                    &mo 3            &kp LCTL     &kp SPC  &mo 2 
             >;
         };
         
         right_layer {
             bindings = <
-                &kp ESC   &trans    &kp DQT   &kp PIPE2 &kp HASH 		&trans    &kp UNDER &kp PLUS  &kp PIPE  &kp BSPC
-                &kp NUM_1 &kp NUM_2 &kp NUM_3 &kp NUM_4 &kp NUM_5		&kp NUM_6 &kp NUM_7 &kp NUM_8 &kp NUM_9 &kp NUM_0
-                &kp LSFT  &trans    &trans    &trans    &trans 	        &trans    &trans    &kp LBRC  &kp RBRC  &kp RSFT 
-                                              &mo 1     &kp LGUI  	    &kp RGUI &mo 2 
+                &kp ESC   &trans    &trans    &trans    &trans                    &trans    &kp MINUS &kp KP_EQUAL &kp BSLH  &kp BSPC
+                &kp NUM_1 &kp NUM_2 &kp NUM_3 &kp NUM_4 &kp NUM_5		          &kp NUM_6 &kp NUM_7 &kp NUM_8    &kp NUM_9 &kp NUM_0
+                &kp LSFT  &trans    &trans    &trans    &trans 	                  &trans    &trans    &kp LBRC     &kp RBRC  &kp RSFT 
+                                              &mo 1     &kp LGUI  	              &kp RGUI  &mo 2 
             >;
         };	
         
         tri_layer {
             bindings = <
-                &kp GRAVE  &kp UP     &trans     &trans &trans	   &kp HOME &kp PG_UP &kp PG_DN &kp END   &trans
-                &kp LEFT   &kp DOWN   &kp RIGHT  &trans &trans     &kp LEFT &kp DOWN &kp UP     &kp RIGHT &kp SEMI 
-                &bt BT_CLR &bt BT_NXT &bt BT_PRV &trans &trans     &trans   &trans   &trans     &trans    &trans   
-                                                 &trans &trans     &trans   &trans 
+                &kp GRAVE  &kp UP     &trans     &trans &trans	                  &kp HOME &kp PG_UP &kp PG_DN &kp END   &kp DEL
+                &kp LEFT   &kp DOWN   &kp RIGHT  &trans &trans                    &kp LEFT &kp DOWN &kp UP     &kp RIGHT &kp SEMI 
+                &bt BT_CLR &bt BT_NXT &bt BT_PRV &trans &trans                    &trans   &trans   &trans     &trans    &trans   
+                                                 &trans &trans                    &trans   &trans 
             >;
         };	
         
