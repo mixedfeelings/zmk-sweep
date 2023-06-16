@@ -93,7 +93,7 @@
         
         tri_layer {
             bindings = <
-                &tran      &kp UP       &trans       &kp PG_UP    &kp HOME	         &kp LS(LG(N4)) &kp LS(LG(N3)) &trans        &trans        &trans
+                &trans     &kp UP       &trans       &kp PG_UP    &kp HOME	         &kp LS(LG(N4)) &kp LS(LG(N3)) &trans        &trans        &trans
                 &kp LEFT   &kp DOWN     &kp RIGHT    &kp PG_DN    &kp END            &kp LEFT       &kp DOWN       &kp UP        &kp RIGHT     &kp SQT 
                 &bt BT_CLR &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4       &trans         &kp LS(LG(M))  &kp LS(LG(O)) &kp LS(LG(F)) &trans   
                                                      &trans       &trans             &trans         &trans 
